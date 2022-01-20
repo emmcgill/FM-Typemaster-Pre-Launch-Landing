@@ -1,0 +1,133 @@
+:root {
+    --clr-dark-orange: hsl(22, 89%, 52%);
+    --clr-light-orange: hsl(22,100%,69%);
+    --clr-dark-blue: hsl(220,50%,17%);
+    --clr-dark-blue-gray: hsl(221,23%,58%);
+    --clr-light-gray: hsl(198,28%,93%);
+    --clr-white: hsl(0,0%,100%);
+
+    --ff-barlow: 'Barlow', sans-serif;
+
+    --fw-black: 900;
+    --fw-medium: 500;
+
+    --fs-h1: 56px;
+    --fs-h2: 32px;
+    --fs-h3: 24px;
+    --fs-body: 16px;
+
+    --lh-h1: 56px;
+    --lh-h2: 36px;
+    --lh-h3: 28px;
+    --lh-body: 26px;
+
+}
+
+.hero {
+    overflow: hidden;
+}
+
+.hero > .hero-top {
+    margin: 0 1.5rem;
+}
+
+.hero > .hero-top > .hero-intro > h1 {
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.hero > .hero-top > .hero-intro > .sub-title {
+    color: #7B8BAD;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero > .hero-top > .hero-intro > .order-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.hero > .hero-top > .hero-intro > .order-wrapper > * {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .95rem;
+}
+
+.hero > .hero-top > .hero-intro > .order-wrapper > a {
+    background-color: var(--clr-dark-orange);
+    color: var(--clr-white);
+    text-decoration: none;
+    padding: .65rem;
+    border-radius: 10px;
+}
+
+.hero > .hero-top > .hero-intro > .order-wrapper .release-date {
+    color: var(--clr-dark-blue-gray);
+    margin-right: 25px;
+}
+
+.hero > .hero-top > #keyboard {
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.hero > .hero-bottom > .bottom-img-wrapper {
+    display: flex;
+    gap: 1.45rem;
+    margin-bottom: 5rem;
+
+}
+
+.hero > .hero-bottom > .bottom-img-wrapper > * {
+    height: 193px;
+    border-radius: 20px;
+}
+
+.hero > .hero-bottom > .bottom-img-wrapper > .phone-and-keyboard-wrapper {
+    width: 129px;
+    background-image: url('/assets/mobile/image-phone-and-keyboard.jpg');
+    position: relative;
+    object-fit: cover;
+    margin-left: -22px; 
+    background-size: 129px;
+}
+
+.hero > .hero-bottom > .bottom-img-wrapper > .phone-and-keyboard-wrapper > .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(22, 89%, 52%);
+    filter: opacity(.80);
+    border-radius: 20px;
+    
+}
+
+.hero > .hero-bottom > .hero-outro {
+    padding: 0 1.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.hero > .hero-bottom > .hero-outro > h2 {
+    margin: 0 auto;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    max-width: 255px;
+}
+
+.hero > .hero-bottom > .hero-outro > .sub-title {
+    line-height: 1.75rem;
+    color: #7B8BAD;
+    font-weight: 400;
+}
+
+

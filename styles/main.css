@@ -1,0 +1,67 @@
+:root {
+    --clr-dark-orange: hsl(22,89%,52%);
+    --clr-light-orange: hsl(22,100%,69%);
+    --clr-dark-blue: hsl(220,50%,17%);
+    --clr-dark-blue-gray: hsl(221,23%,58%);
+    --clr-light-gray: hsl(198,28%,93%);
+    --clr-white: hsl(0,0%,100%);
+
+    --ff-barlow: 'Barlow', sans-serif;
+
+    --fw-black: 900;
+    --fw-medium: 500;
+
+    --fs-h1: 56px;
+    --fs-h2: 32px;
+    --fs-h3: 24px;
+    --fs-body: 16px;
+
+    --lh-h1: 56px;
+    --lh-h2: 36px;
+    --lh-h3: 28px;
+    --lh-body: 26px;
+
+}
+
+.main {
+    padding: 0 1.5rem;
+}
+
+.main > .card-wrapper {
+    margin-bottom: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main > .card-wrapper > .image {
+    background-color: var(--clr-dark-orange);
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.main > .card-wrapper > .info > h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.main > .card-wrapper > .info > h2 > span {
+    display: block;
+}
+
+.main > .card-wrapper > .info > .description {
+    color: #7B8BAD;
+    text-align: center;
+    line-height: 1.65rem;
+}
+

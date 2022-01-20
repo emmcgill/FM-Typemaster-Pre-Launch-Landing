@@ -1,0 +1,36 @@
+:root {
+    --clr-dark-orange: hsl(22,89%,52%);
+    --clr-light-orange: hsl(22,100%,69%);
+    --clr-dark-blue: hsl(220,50%,17%);
+    --clr-dark-blue-gray: hsl(221,23%,58%);
+    --clr-light-gray: hsl(198,28%,93%);
+    --clr-white: hsl(0,0%,100%);
+
+    --ff-barlow: 'Barlow', sans-serif;
+
+    --fw-black: 900;
+    --fw-medium: 500;
+
+    --fs-h1: 56px;
+    --fs-h2: 32px;
+    --fs-h3: 24px;
+    --fs-body: 16px;
+
+    --lh-h1: 56px;
+    --lh-h2: 36px;
+    --lh-h3: 28px;
+    --lh-body: 26px;
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: var(--ff-barlow);
+    background-color: #F2F2F2;
+    max-width: 375px;
+}
