@@ -94,7 +94,7 @@
 
 .hero > .hero-bottom > .bottom-img-wrapper > .phone-and-keyboard-wrapper {
     width: 129px;
-    background-image: url("../assets/mobile/image-phone-and-keyboard.jpg");
+    background-image: url("assets/mobile/image-phone-and-keyboard.jpg");
     position: relative;
     object-fit: cover;
     margin-left: -22px; 
@@ -168,7 +168,7 @@
     .hero > .hero-bottom > .bottom-img-wrapper > .phone-and-keyboard-wrapper {
         width: 214px;
         object-fit: cover;
-        background-image: url("../assets/tablet/image-phone-and-keyboard.jpg");
+        background-image: url("assets/tablet/image-phone-and-keyboard.jpg");
         position: relative;
         margin-left: 0;
         background-size: 214px; 
@@ -254,7 +254,7 @@
    .hero > .hero-bottom > .bottom-img-wrapper > .phone-and-keyboard-wrapper {
        width: 255px;
        background-size: 255px;
-       background-image: url("../assets/desktop/image-phone-and-keyboard.jpg");
+       background-image: url("assets/desktop/image-phone-and-keyboard.jpg");
    }
 
    .hero > .hero-bottom > .hero-outro {
