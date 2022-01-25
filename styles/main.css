@@ -65,3 +65,44 @@
     line-height: 1.65rem;
 }
 
+@media (min-width: 768px) {
+    .main {
+        padding: 0 2.25rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 4.5rem;
+    }
+
+    .main > .card-wrapper {
+        align-items: initial;
+    }
+
+    .main > .card-wrapper > .info > h2 {
+        text-align: initial;
+        margin: initial;
+        margin-bottom: 1.25rem;
+    }
+
+    .main > .card-wrapper > .info > .description {
+        text-align: initial;
+        max-width: 281px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .main {
+        padding: 0 6rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 4.5rem;
+    }
+
+    .main > .card-wrapper {
+        max-width: 255px;
+    }
+
+    main > .card-wrapper > .image {
+        margin-bottom: 12rem;
+    }
+}
+
